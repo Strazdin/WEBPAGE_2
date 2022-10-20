@@ -1,0 +1,115 @@
+
+/* .wrapper {
+
+} */
+
+/* flex-контейнеры */
+.site_layout {
+
+    border: 10px solid #ece89d;
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    min-height: 100vh;
+    /* justify-content: space-between; */
+}
+
+.site__main {
+
+    flex-grow: 1;
+    display: flex;
+    /* margin: 0px -5px; */
+}
+
+/* flex-элементы */
+.layout__header {
+
+    /* background-color: hsl(165, 52%, 40%); */
+}
+
+.layout__nav {
+
+    /* background-color: hsl(165, 52%, 70%);
+    margin: 12px 0px; */
+}
+
+/* .main__aside__left, .main__article, .main__aside__right {
+
+
+} */
+
+.main__article {
+
+}
+
+.main__aside__right {
+
+}
+
+.layout__footer {
+
+    margin: 0px;
+    flex-shrink: 0;
+    background-color: hsl(165, 52%, 70%);
+}
+
+/* /// */
+
+.header__element {
+
+    background-color: hsl(165, 52%, 40%);
+}
+
+.nav__element {
+
+    background-color: hsl(165, 52%, 70%);
+    margin: 12px 0px;
+}
+
+.aside__element__left, .article__element, .aside__element__right {
+
+    padding: 0px 5px;
+    flex: 0 1 33.333%;
+    border: 2px solid #710d0f;
+}
+
+.aside__element__left {
+
+}
+
+.article__element {
+
+}
+
+.aside__element__right {
+
+}
+
+.footer__element {
+
+}
+
+/* контент */
+.header__content {
+
+}
+
+.nav__content {
+
+}
+
+.aside__content__left {
+
+}
+
+.article__content {
+
+}
+
+.aside__content__right {
+
+}
+
+.footer__content {
+
+}
